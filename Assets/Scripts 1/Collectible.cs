@@ -5,9 +5,6 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
 
-    //public Audioclip coinSound;
-    public AudioClip coin1;
-    public AudioClip coin2;
 
 
     // Start is called before the first frame update
@@ -28,7 +25,7 @@ public class Collectible : MonoBehaviour
         
             PlayerStats.score++;
 
-            AudioManager.Instance.PlayRandomSFX(coin1,coin2);
+
 
             Debug.Log("Score: " + PlayerStats.score);
             
