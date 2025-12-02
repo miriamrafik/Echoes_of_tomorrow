@@ -1,0 +1,783 @@
+fileFormatVersion: 2
+guid: 645f23cee82d22e4a8697e77adfaadc9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 510
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1c9c2d2e0af1044aef0d026ff7983f
+      internalID: -1133686383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 509
+        width: 84
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048b53bd7a191794992073ec082fc0c0
+      internalID: 263983034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 510
+        width: 84
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bae5d16c2367446a8813e75a47c6e9
+      internalID: -412328157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 510
+        width: 84
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74f36ddb409b141ab8c3fab425c22e
+      internalID: -847314151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 510
+        width: 84
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c355b11a3c577c04da933b2a3abd5f54
+      internalID: 1222494581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_5
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 510
+        width: 98
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69fd3f45b6ab0e4cb6413c29cf07363
+      internalID: 1370299295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_6
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 510
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48f5749aff39414388b2134e44d993f
+      internalID: 852595360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_7
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 510
+        width: 85
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3be392bf2fe46c4eb98a8fd669e023c
+      internalID: -2043567796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 285
+        width: 90
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af196a26bc1128d48ae5962ad7a16418
+      internalID: 959944788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 284
+        width: 93
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cda175c4599fd41af775afabbe01df
+      internalID: 49855698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 284
+        width: 84
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ce849f64e110948a6a8d5406bd5b8a
+      internalID: 2002549115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 284
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272a0b2fa74af7a428cff1428f6345e4
+      internalID: -1037741006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_12
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 285
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8681255525c87d64cb6c77299e28a447
+      internalID: 1517659903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 286
+        width: 90
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ac75e367cf614e9e933053e4053bb
+      internalID: -24571655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_14
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 284
+        width: 92
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df5093fb8364dd499381fd143443d3a
+      internalID: -1705277796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_15
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 284
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b20dbe2ef7e1479461daaf0401df8
+      internalID: -1615397705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_16
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 284
+        width: 82
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e96f95fd99feb49b1d337c2d690bdc
+      internalID: -170440122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_17
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 284
+        width: 81
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfab23501370cc04fa51f46bd987ef06
+      internalID: 518943142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 59
+        width: 86
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6151a5a29bb76c14f8f5f431c1b0b418
+      internalID: 1035022328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 125
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93b0b25fbb0afc46a244d7e6b4eff0c
+      internalID: 875493950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 59
+        width: 90
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6570ce46846ed0344bf35971dbfb2d28
+      internalID: 1910813983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 60
+        width: 89
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac374fe2f80d9af44a768c4d96c3ded1
+      internalID: 1341125888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 60
+        width: 86
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225aae01625161a4db5805d1c8d398f2
+      internalID: -590259183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_23
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 59
+        width: 98
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691b039364241a0459251139b8b1935a
+      internalID: -710536318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_24
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 123
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8900a33c2e41543a170a3ebdd90fda
+      internalID: 1790487990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_25
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 59
+        width: 89
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841b85cc26ee3724f82d49d9fdbf2d46
+      internalID: -516902602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_26
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 59
+        width: 81
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b91d4d7738b3b34fa167dec20f76051
+      internalID: -1056579696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_27
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 59
+        width: 82
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07b84e6f88b81944b2ecc7dafa0e6e7
+      internalID: 32821405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 92
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c99bc4507f092418db33cdf2938c9d
+      internalID: 601549402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Illusion Sentinels Level 4_29
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 90
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d9cbc5dac178b47867237e9b8a112a
+      internalID: 2008744526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Illusion Sentinels Level 4_9: 49855698
+      Illusion Sentinels Level 4_3: -847314151
+      Illusion Sentinels Level 4_4: 1222494581
+      Illusion Sentinels Level 4_17: 518943142
+      Illusion Sentinels Level 4_12: 1517659903
+      Illusion Sentinels Level 4_24: 1790487990
+      Illusion Sentinels Level 4_29: 2008744526
+      Illusion Sentinels Level 4_20: 1910813983
+      Illusion Sentinels Level 4_0: -1133686383
+      Illusion Sentinels Level 4_26: -1056579696
+      Illusion Sentinels Level 4_22: -590259183
+      Illusion Sentinels Level 4_25: -516902602
+      Illusion Sentinels Level 4_5: 1370299295
+      Illusion Sentinels Level 4_18: 1035022328
+      Illusion Sentinels Level 4_1: 263983034
+      Illusion Sentinels Level 4_23: -710536318
+      Illusion Sentinels Level 4_8: 959944788
+      Illusion Sentinels Level 4_6: 852595360
+      Illusion Sentinels Level 4_13: -24571655
+      Illusion Sentinels Level 4_10: 2002549115
+      Illusion Sentinels Level 4_11: -1037741006
+      Illusion Sentinels Level 4_16: -170440122
+      Illusion Sentinels Level 4_15: -1615397705
+      Illusion Sentinels Level 4_14: -1705277796
+      Illusion Sentinels Level 4_7: -2043567796
+      Illusion Sentinels Level 4_19: 875493950
+      Illusion Sentinels Level 4_28: 601549402
+      Illusion Sentinels Level 4_21: 1341125888
+      Illusion Sentinels Level 4_2: -412328157
+      Illusion Sentinels Level 4_27: 32821405
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
