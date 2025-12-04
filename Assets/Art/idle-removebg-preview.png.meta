@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4550637674b3fa4b92da928de298f7f
+guid: 341dfa0c1f4e8464bb74b514964dfcf5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,22 +105,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Platform 18_0
+      name: idle-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 329
-        y: 453
-        width: 564
-        height: 113
+        x: 0
+        y: 535
+        width: 95
+        height: 206
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ccb951dbd1356048911f831e4150bff
-      internalID: -677999375
+      spriteID: b346525b1b44ade498e6d772a4d3d9e0
+      internalID: -264686023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 538
+        width: 93
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264424a38d16dc4469dec2063c9d543a
+      internalID: -935994625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 535
+        width: 97
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094886e3440d3bc4997c0e710f8f9ec6
+      internalID: -503072631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 97
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bb1d8631f5c784e8058bc8347da48b
+      internalID: -1049452519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 304
+        width: 93
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9337df2bc2de6d4290c8ad43396ecb5
+      internalID: -1121782170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 303
+        width: 88
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d707fd50c0e31a4da740d35a54dd6e6
+      internalID: 1349469483
       vertices: []
       indices: 
       edges: []
@@ -136,7 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Platform 18_0: -677999375
+      idle-removebg-preview_1: -935994625
+      idle-removebg-preview_0: -264686023
+      idle-removebg-preview_4: -1121782170
+      idle-removebg-preview_3: -1049452519
+      idle-removebg-preview_2: -503072631
+      idle-removebg-preview_5: 1349469483
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

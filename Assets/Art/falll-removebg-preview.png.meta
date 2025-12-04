@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4550637674b3fa4b92da928de298f7f
+guid: 8fb1e5b67ad8945489358bb93a406c61
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Platform 18_0
+      name: falll-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 329
-        y: 453
-        width: 564
-        height: 113
+        x: 27
+        y: 522
+        width: 124
+        height: 153
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ccb951dbd1356048911f831e4150bff
-      internalID: -677999375
+      spriteID: 105f45141e632684db2140ec5d178445
+      internalID: 1763103128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falll-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 550
+        width: 141
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9915e99f923673439304a3778e3ba5e
+      internalID: -19471056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falll-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 279
+        width: 288
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2172abfa94f353e4d8235d76c463e06d
+      internalID: -121401458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falll-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 55
+        width: 101
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81ee17c2728744a946dea767521c7f
+      internalID: 2026879440
       vertices: []
       indices: 
       edges: []
@@ -136,7 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Platform 18_0: -677999375
+      falll-removebg-preview_2: -121401458
+      falll-removebg-preview_0: 1763103128
+      falll-removebg-preview_1: -19471056
+      falll-removebg-preview_3: 2026879440
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

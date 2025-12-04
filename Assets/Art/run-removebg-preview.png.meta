@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4550637674b3fa4b92da928de298f7f
+guid: bc5b36d33f6015843bd46d6893b8051f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,22 +105,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Platform 18_0
+      name: run-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 329
-        y: 453
-        width: 564
-        height: 113
+        x: 3
+        y: 532
+        width: 128
+        height: 158
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ccb951dbd1356048911f831e4150bff
-      internalID: -677999375
+      spriteID: 64eb31a9ee69ac44fabda4bdc6431acf
+      internalID: 648168943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 530
+        width: 153
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6dd65c08037e9408b0f92943eb0037
+      internalID: -984236311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 298
+        width: 128
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243db4269d7591c429067a464ae73f87
+      internalID: 567238421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 295
+        width: 157
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c5942b30173e4bab7a5b284b566fd
+      internalID: 700055993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 62
+        width: 129
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd160e3d1c48b754697b1356bfc2e59f
+      internalID: -1228277043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 63
+        width: 144
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aef4537c22150349a099acaff7e33aa
+      internalID: -1834014479
       vertices: []
       indices: 
       edges: []
@@ -136,7 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Platform 18_0: -677999375
+      run-removebg-preview_0: 648168943
+      run-removebg-preview_5: -1834014479
+      run-removebg-preview_4: -1228277043
+      run-removebg-preview_2: 567238421
+      run-removebg-preview_1: -984236311
+      run-removebg-preview_3: 700055993
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
