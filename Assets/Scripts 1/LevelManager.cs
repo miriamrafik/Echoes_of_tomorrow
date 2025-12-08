@@ -20,7 +20,7 @@ public class LevelManager : MonoBehaviour
 
      public void RespawnPlayer()
      {
-           FindObjectOfType<NewBehaviourScript>().transform.position = CurrentCheckpoint.transform.position;
+           FindObjectOfType<PlayerController>().transform.position = CurrentCheckpoint.transform.position;
      }
     
 }
