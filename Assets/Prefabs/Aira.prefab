@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3502252400302854355}
   - component: {fileID: 8268263993436049085}
   - component: {fileID: 3502252400302854354}
+  - component: {fileID: 4963934622107588757}
   - component: {fileID: 3502252400302854353}
   m_Layer: 0
   m_Name: Aira
@@ -174,6 +175,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4963934622107588757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502252400302854352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17cdc90b4dbebb46b5df409431e4905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingPoint: {fileID: 0}
+  normalBulletPrefab: {fileID: 0}
+  sr: {fileID: 0}
+  normalKey: 9
+  normalCooldown: 0.25
 --- !u!95 &3502252400302854353
 Animator:
   serializedVersion: 4

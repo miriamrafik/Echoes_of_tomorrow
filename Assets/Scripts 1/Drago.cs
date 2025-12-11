@@ -177,7 +177,7 @@ public class Drago : MonoBehaviour
         if (col != null) col.enabled = false;
 
         // Wait 2.2 seconds (death anim) then spawn shard + destroy Drago
-        Invoke(nameof(SpawnShardAndDestroy), 2.2f);
+        Invoke(nameof(SpawnShardAndDestroy), 1f);
     }
 
     void SpawnShardAndDestroy()

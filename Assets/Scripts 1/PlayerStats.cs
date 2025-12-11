@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+      
+    public int maxAetherEnergy = 100; // 4 shards * 25 = 100
+    public int aetherEnergy = 0;      // current energy Rocky has
     public static int score = 0; // coin 
     public static bool hasHeart = false; // heart part lab 7
 
@@ -84,6 +87,15 @@ public class PlayerStats : MonoBehaviour
             immunityTime = 0f;
 
            
+    }
+    public void GainAetherEnergy(int amount)
+    {
+        aetherEnergy = aetherEnergy + amount;
+
+        if (aetherEnergy > maxAetherEnergy)
+            aetherEnergy = maxAetherEnergy;
+
+
     }
     
 }
