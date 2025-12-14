@@ -23,6 +23,8 @@ public class ShardPickup : MonoBehaviour
         // 2) Unlock the correct ability (or multiple if you check more than one)
 
         // 3) Remove the shard from the scene
+        PlayerStats.Crystal++;
+
         Destroy(gameObject);
     }
 }
