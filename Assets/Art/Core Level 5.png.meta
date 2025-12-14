@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d89d8465e1135143aa50118801d3489
+guid: 7276bc3cd8cc17541a8ad2e1cc533a36
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,112 +103,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Memory Merchant_0
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 254
-        width: 185
-        height: 426
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2a2a0e59bf92b840a7ce2a33523699a
-      internalID: -135234060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Memory Merchant_1
-      rect:
-        serializedVersion: 2
-        x: 503
-        y: 260
-        width: 262
-        height: 418
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f284f8cd94a0a142b380eede94152ba
-      internalID: -1942165457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Memory Merchant_2
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 260
-        width: 186
-        height: 419
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 705347761fbd6544fa12ac357acd52a0
-      internalID: -1633581554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Memory Merchant_3
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 25
-        width: 194
-        height: 198
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4464093934a91f5418be94b25a2fde44
-      internalID: 1188370663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Memory Merchant_4
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 11
-        width: 211
-        height: 216
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b827daba0cfd9a469ffe52c6b11d8db
-      internalID: 52597781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -219,12 +114,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Memory Merchant_0: -135234060
-      Memory Merchant_2: -1633581554
-      Memory Merchant_4: 52597781
-      Memory Merchant_3: 1188370663
-      Memory Merchant_1: -1942165457
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
