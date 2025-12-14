@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCDialogue : MonoBehaviour
+public class NPCDialogue2 : MonoBehaviour
 {
     public DialogueManager dialogueManager;
     void OnTriggerEnter2D(Collider2D other){
         if(other.tag=="Player")
         {
-            string[] dialogue={"dvedyfgwygefewyfgw8yfgwyf",
-                                "ewfgvewufgwfgwpef",
-                                "ewfwfwfcvev",
-                                 "ewgvwvewvgwgw"};
+            string[] dialogue={"Archivist Luma: Fear listens.",
+                                "Light and sound will draw what hides in the dark.",
+                                 };
 
             dialogueManager.SetSentences(dialogue);
             Destroy(GetComponent<BoxCollider2D>(),5f);
