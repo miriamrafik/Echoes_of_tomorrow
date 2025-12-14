@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro; 
 
 public class PlayerStats : MonoBehaviour
 {
       
     public int maxAetherEnergy = 100; // 4 shards * 25 = 100
     public int aetherEnergy = 0;      // current energy Rocky has
-    public static int score = 0; // coin 
+     public static int Shards = 0; // coin 
+    public TextMeshProUGUI ShardsCounter; // coin // coin 
+     public static int Crystal = 0; // coin 
+    public TextMeshProUGUI CrystalCounter;
     public static bool hasHeart = false; // heart part lab 7
 
     public static int health = 2;
@@ -43,6 +48,8 @@ public class PlayerStats : MonoBehaviour
                 sr.enabled = true;
             }
         }
+             ShardsCounter.text = " " + Shards;
+              CrystalCounter.text = " " + Crystal;
     }
 
     void SpriteFlicker(){

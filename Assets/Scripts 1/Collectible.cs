@@ -21,15 +21,20 @@ public class Collectible : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         
-         if (other.tag == "Player"){
+          if (other.tag == "Player"){
         
-            PlayerStats.score++;
-
-
-
-            Debug.Log("Score: " + PlayerStats.score);
+            PlayerStats.Shards++;
+            Debug.Log("Shards: " + PlayerStats.Shards);
             
-            Destroy(gameObject);
         }
+         else if (other.tag == "Player"){
+        
+            PlayerStats.Crystal++;
+
+            Debug.Log("Crystals: " + PlayerStats.Crystal);
+            }
+           
+        Destroy(gameObject);
     }
+
 }
