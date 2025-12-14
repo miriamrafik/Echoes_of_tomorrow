@@ -18,7 +18,7 @@ public class ShardPickup : MonoBehaviour
             return;
 
         // 1) Give Aether energy
-        stats.GainAetherEnergy(aetherAmount);
+      
 
         // 2) Unlock the correct ability (or multiple if you check more than one)
 

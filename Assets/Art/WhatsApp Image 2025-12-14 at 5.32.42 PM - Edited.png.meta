@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56cb861cd9586ab43bbaca01ca4551b9
+guid: d65f57c07e0dcca428ed3c8c47a445df
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Platform 17_0
+      name: WhatsApp Image 2025-12-14 at 5.32.42 PM - Edited_0
       rect:
         serializedVersion: 2
-        x: 409
-        y: 401
-        width: 440
-        height: 74
+        x: 156
+        y: 127
+        width: 868
+        height: 1178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 457b59d2cb4d60444ac79eab7040b247
-      internalID: -1624750581
+      spriteID: 4f7ee3f41ed7ae446aecd8bfb9db90c0
+      internalID: 867009440
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Platform 17_0: -1624750581
+      WhatsApp Image 2025-12-14 at 5.32.42 PM - Edited_0: 867009440
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

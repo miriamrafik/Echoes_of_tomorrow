@@ -57,5 +57,12 @@ public class PlayerBullet : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        IllusionSentinels Sentinels = other.GetComponent<IllusionSentinels>();
+        if (Sentinels != null)
+        {
+            Sentinels.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+    }
     }
 }

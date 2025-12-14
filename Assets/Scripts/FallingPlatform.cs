@@ -1,37 +1,35 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour
 {
-    public float fallDelay = 0.5f; // Time before platform starts falling
-    public float destroyDelay = 3f; // Time before platform is destroyed
-    public float shakeAmount = 0.05f; // How much platform shakes before falling
-    
+    public float fallDelay = 0.5f;
+    public float destroyDelay = 3f;
+    public float respawnDelay = 2f;
+    public float shakeAmount = 0.05f;
+
     private Rigidbody2D rb;
-    private bool isFalling = false;
+    private Collider2D col;
+    private SpriteRenderer sr;
+
     private bool hasTriggered = false;
     private Vector3 originalPosition;
-    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
+        sr = GetComponent<SpriteRenderer>();
+
         originalPosition = transform.position;
-        
-        // Make platform static initially
-        if (rb != null)
-        {
-            rb.bodyType = RigidbodyType2D.Static;
-            rb.gravityScale = 1;
-        }
+
+        ResetPlatform();
     }
-    
+
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if player landed on top of platform
         if (collision.gameObject.CompareTag("Player") && !hasTriggered)
         {
-            // Check if player is above the platform (landed on top)
             if (collision.contacts[0].normal.y < -0.5f)
             {
                 hasTriggered = true;
@@ -39,37 +37,57 @@ public class FallingPlatform : MonoBehaviour
             }
         }
     }
-    
-    System.Collections.IEnumerator FallSequence()
+
+    IEnumerator FallSequence()
     {
-        // Shake phase
-        float shakeTime = fallDelay;
+        // Shake before falling
         float elapsed = 0f;
-        
-        while (elapsed < shakeTime)
+
+        while (elapsed < fallDelay)
         {
             transform.position = originalPosition + new Vector3(
                 Random.Range(-shakeAmount, shakeAmount),
                 Random.Range(-shakeAmount, shakeAmount),
                 0
             );
+
             elapsed += Time.deltaTime;
             yield return null;
         }
-        
-        // Reset position before falling
+
         transform.position = originalPosition;
-        
+
         // Start falling
-        if (rb != null)
-        {
-            rb.bodyType = RigidbodyType2D.Dynamic;
-            rb.gravityScale = 3; // Falls faster
-        }
-        
-        isFalling = true;
-        
-        // Destroy after delay
-        Destroy(gameObject, destroyDelay);
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = 3f;
+
+        yield return new WaitForSeconds(destroyDelay);
+
+        // Hide platform instead of destroying
+        sr.enabled = false;
+        col.enabled = false;
+
+        yield return new WaitForSeconds(respawnDelay);
+
+        Respawn();
+    }
+
+    void Respawn()
+    {
+        transform.position = originalPosition;
+        ResetPlatform();
+    }
+
+    void ResetPlatform()
+    {
+        rb.velocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.bodyType = RigidbodyType2D.Static;
+        rb.gravityScale = 1f;
+
+        sr.enabled = true;
+        col.enabled = true;
+
+        hasTriggered = false;
     }
 }
