@@ -10,7 +10,7 @@ public class PlayerStats : MonoBehaviour
     public static int score = 0; // coin 
     public static bool hasHeart = false; // heart part lab 7
 
-    public static int health = 3;
+    public static int health = 2;
     public static int lives = 3;
 
     private float flickerTime = 0f;

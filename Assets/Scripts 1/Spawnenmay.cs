@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnDrago: MonoBehaviour
+public class Spawnenmay: MonoBehaviour
 {
     public GameObject dragoPrefab;   // Drago prefab
     public Transform spawnPoint;     // where he appears
