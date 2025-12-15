@@ -14,10 +14,11 @@ public class PlayerStats : MonoBehaviour
     public static int Crystal = 0; // coin 
     public TextMeshProUGUI CrystalCounter;
     public static bool hasHeart = false; // heart part lab 7
-  
+    public Image healthBar; //healthBar
 
     public  static int health = 3;
     public static int lives = 3;
+    public int maxHealth = 3; //healthBar
 
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
@@ -34,6 +35,8 @@ public class PlayerStats : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
            // force full bar
+        health = maxHealth; //healthBar
+        UpdateHealthBar(); //healthBar
     }
 
     // Update is called once per frame
@@ -72,15 +75,15 @@ public class PlayerStats : MonoBehaviour
 
            if (isImmune == false )
            {
-              health = health - damage;
-              
-              if (health < 0)
-              health = 0;
+             PlayerStats.health -= damage;   //healthBar
+             PlayerStats.health = Mathf.Clamp(PlayerStats.health, 0, 3);  //healthBar
+             UpdateHealthBar();  //healthBar
+
 
            if (lives > 0 && health == 0){
             FindObjectOfType<LevelManager>().RespawnPlayer();
             health = 3;
-           
+            UpdateHealthBar(); //healthBar
             lives --;
            }
 
@@ -107,6 +110,12 @@ public class PlayerStats : MonoBehaviour
             aetherEnergy = maxAetherEnergy;
 
 
+    }
+    
+      void UpdateHealthBar()
+    {
+        //READ static health
+        healthBar.fillAmount = (float)PlayerStats.health / maxHealth;
     }
    
 }

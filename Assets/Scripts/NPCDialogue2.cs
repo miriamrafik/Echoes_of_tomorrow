@@ -9,7 +9,7 @@ public class NPCDialogue2 : MonoBehaviour
         if(other.tag=="Player")
         {
             string[] dialogue={"Archivist Luma: Fear listens.",
-                                "Light and sound will draw what hides in the dark.",
+                                "Archivist Luma: Light and sound will draw what hides in the dark."
                                  };
 
             dialogueManager.SetSentences(dialogue);
