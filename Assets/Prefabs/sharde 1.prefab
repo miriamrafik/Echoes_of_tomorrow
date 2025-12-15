@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3737512316903690988}
   - component: {fileID: 5841818847099145738}
   - component: {fileID: 5059902936016107389}
+  - component: {fileID: 7767129807893580875}
   m_Layer: 0
   m_Name: sharde 1
   m_TagString: Untagged
@@ -124,3 +125,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: febbc2c3418de7743a7724e4b431f726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
+  shardSound: {fileID: 8300000, guid: 763920edf4866be42bcfe6be248a9063, type: 3}
+  crystalSound: {fileID: 0}
+--- !u!95 &7767129807893580875
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737512316903690990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 274bef8516ac1b44babe99e9fd5231c4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

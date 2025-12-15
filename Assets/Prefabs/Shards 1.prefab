@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9009317439724844022}
   - component: {fileID: 11136337945812770}
   - component: {fileID: 8840190469793578629}
+  - component: {fileID: -474169681540123728}
   m_Layer: 0
   m_Name: Shards 1
   m_TagString: Untagged
@@ -98,6 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: febbc2c3418de7743a7724e4b431f726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
+  shardSound: {fileID: 8300000, guid: 763920edf4866be42bcfe6be248a9063, type: 3}
+  crystalSound: {fileID: 0}
 --- !u!61 &8840190469793578629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -124,3 +128,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.02, y: 1.92}
   m_EdgeRadius: 0
+--- !u!95 &-474169681540123728
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356473771819362404}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 344edfda9dc058f43967d32b9fba10c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

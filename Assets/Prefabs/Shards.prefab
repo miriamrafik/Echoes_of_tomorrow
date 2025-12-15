@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7773330068225222271}
+  - component: {fileID: 3347428015244150342}
   - component: {fileID: 5468494392138450272}
   - component: {fileID: 5475259930306403963}
   - component: {fileID: 7644096869642734205}
@@ -34,6 +35,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3347428015244150342
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4367709748257245496}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 305842773967dd94bb4e55e5157925d2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &5468494392138450272
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -98,6 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: febbc2c3418de7743a7724e4b431f726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
+  shardSound: {fileID: 8300000, guid: 763920edf4866be42bcfe6be248a9063, type: 3}
+  crystalSound: {fileID: 0}
 --- !u!61 &7644096869642734205
 BoxCollider2D:
   m_ObjectHideFlags: 0
