@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
+
 public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI DialoguePanel;   // Text (TMP)

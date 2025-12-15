@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro; 
-using UnityEngine.SceneManagement ; 
+
 public class PlayerStats : MonoBehaviour
 {
       
@@ -88,7 +88,6 @@ public class PlayerStats : MonoBehaviour
            }
 
             else if (lives == 0 && health == 0) {
-            SceneManager.LoadScene(6);
             Debug.Log("Gameover");
             Destroy(this.gameObject);
             }

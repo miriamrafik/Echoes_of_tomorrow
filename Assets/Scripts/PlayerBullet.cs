@@ -64,12 +64,5 @@ public class PlayerBullet : MonoBehaviour
             Destroy(gameObject);
             return;
     }
-            Guardian Guardiann = other.GetComponent<Guardian>();
-        if (Guardiann != null)
-        {
-            Guardiann.TakeDamage(damage);
-            Destroy(gameObject);
-            return;
-    }
     }
 }

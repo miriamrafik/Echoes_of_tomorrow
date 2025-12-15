@@ -3,13 +3,7 @@ guid: b5f61da24ac230f40a5c4a167ac5b2ec
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - musicSource: {instanceID: 0}
-  - sfxSource: {instanceID: 0}
-  - level1Music: {fileID: 8300000, guid: 909fde7ad543474459353e60ae4a49b5, type: 3}
-  - level2Music: {fileID: 8300000, guid: b43f162c921bfe945a174a095fbb63a3, type: 3}
-  - level3Music: {fileID: 8300000, guid: 1c4486b78d3587145806b8c7a5458e3f, type: 3}
-  - level4Music: {fileID: 8300000, guid: 9a82388fc59ce8a459eb96eb546fd68a, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
