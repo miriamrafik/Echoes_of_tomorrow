@@ -154,6 +154,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxAetherEnergy: 100
   aetherEnergy: 0
+  ShardsCounter: {fileID: 0}
+  CrystalCounter: {fileID: 0}
+  healthBar: {fileID: 0}
+  maxHealth: 3
   flickerDuration: 0.1
   isImmune: 0
   immunityDuration: 1.5
@@ -193,7 +197,7 @@ MonoBehaviour:
   shootingPoint: {fileID: 4452194937525494134}
   normalBulletPrefab: {fileID: 378845220970654410, guid: 6a72a8515c45ed94890d04c641236cb6, type: 3}
   sr: {fileID: 0}
-  normalKey: 9
+  normalKey: 113
   normalCooldown: 0.25
 --- !u!95 &8445920265390746205
 Animator:
