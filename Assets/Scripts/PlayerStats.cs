@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // for scene manager
 using TMPro; 
 
 public class PlayerStats : MonoBehaviour
@@ -17,7 +18,7 @@ public class PlayerStats : MonoBehaviour
     public Image healthBar; //healthBar
 
     public  static int health = 3;
-    public static int lives = 25;
+    public static int lives = 10;
     public int maxHealth = 3; //healthBar
 
     private float flickerTime = 0f;
@@ -89,8 +90,16 @@ public class PlayerStats : MonoBehaviour
            }
 
             else if (lives == 0 && health == 0) {
-            Debug.Log("Gameover");
-            Destroy(this.gameObject);
+                
+                Debug.Log("Game Over");
+
+                // Reset stats
+                lives = 10;
+                health = maxHealth;
+                UpdateHealthBar();
+
+                // Load Game Over scene OR directly reload last level
+                SceneManager.LoadScene("End game");
             }
 
             Debug.Log("Player Health:" + health.ToString());

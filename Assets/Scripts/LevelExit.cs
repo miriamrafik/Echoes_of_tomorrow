@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // for scene managment
 
 public class LevelExit : MonoBehaviour
 {
@@ -20,6 +20,7 @@ public class LevelExit : MonoBehaviour
         {
             Debug.Log("Exit locked: Collect all 3 Memory Shards.");
             return; // STOP here → Aira stays in the level
+            SceneManager.LoadScene("End game");
         }
 
         // Shards collected → go to next level
