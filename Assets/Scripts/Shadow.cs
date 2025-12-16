@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Guardian : MonoBehaviour
+public class Shadow : MonoBehaviour
 {
     [Header("Stats")]
     public int maxHealth = 3;          // bullet hits to kill
@@ -22,7 +22,7 @@ public class Guardian : MonoBehaviour
     bool isAggro = false;   // becomes true after first bullet hit
     bool isDead = false;
 
-    bool movingRight = false;   // false = move left first
+    bool movingRight = false;   // false = move left first (towards Rocky if he’s on the left)
     float spawnX;
     SpriteRenderer sr;
     Animator anim;
@@ -38,11 +38,13 @@ public class Guardian : MonoBehaviour
         currentHealth = maxHealth;
         spawnX = transform.position.x;
 
+        // Start facing left (towards Rocky in your level layout)
         if (sr != null) sr.flipX = false;
         movingRight = false;
 
         SetWalking(true);
 
+        // find player once
         GameObject p = GameObject.FindGameObjectWithTag("Player");
         if (p != null) player = p.transform;
     }
@@ -57,8 +59,7 @@ public class Guardian : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isDead)
-        {
+        if (isDead) {
             if (rb != null) rb.velocity = Vector2.zero;
             return;
         }
@@ -66,6 +67,8 @@ public class Guardian : MonoBehaviour
         HandleMovement();
     }
 
+    // -------- MOVEMENT: walk left/right, flip on collisions --------
+        // -------- MOVEMENT: walk left/right, flip on collisions + stop at spawn --------
     void HandleMovement()
     {
         if (rb == null) return;
@@ -73,15 +76,20 @@ public class Guardian : MonoBehaviour
         float dir = movingRight ? 1f : -1f;
         rb.velocity = new Vector2(dir * moveSpeed, rb.velocity.y);
 
+        // When moving back towards spawn, don't go past spawnX.
+        // In your layout Drago starts on the RIGHT side, so spawnX is the RIGHT limit.
         if (movingRight && transform.position.x >= spawnX)
         {
+            // clamp exactly to spawn point
             Vector3 pos = transform.position;
             pos.x = spawnX;
             transform.position = pos;
 
+            // turn around and go back towards Rocky again
             FlipDirection();
         }
     }
+
 
     void FlipDirection()
     {
@@ -91,21 +99,24 @@ public class Guardian : MonoBehaviour
             sr.flipX = !sr.flipX;
     }
 
-    // -------- BULLET DAMAGE --------
+    // -------- BULLET DAMAGE (called from PlayerBullet) --------
     public void TakeDamage(int amount)
     {
         if (isDead) return;
 
-        isAggro = true;
+        isAggro = true; // first hit makes him angry
         currentHealth -= amount;
 
+        // instantly face Rocky when hit
         if (player != null && sr != null)
         {
             float dx = player.position.x - transform.position.x;
-            sr.flipX = dx > 0f;
+            sr.flipX = dx > 0f;   // face towards Rocky
+            // update movingRight to match facing
             movingRight = sr.flipX;
         }
 
+        // If still alive and cooldown ready → retaliate immediately
         if (currentHealth > 0 && attackTimer <= 0f)
         {
             DoRetaliationAttack();
@@ -117,15 +128,18 @@ public class Guardian : MonoBehaviour
         }
     }
 
+    // Retaliation attack triggered when hit by bullet
     void DoRetaliationAttack()
     {
         if (player == null) return;
 
         attackTimer = attackCooldown;
 
+        // play flamethrower anim
         if (anim != null)
             anim.SetTrigger("attack");
 
+        // OPTIONAL: only damage Rocky if he is in front and in range
         Vector2 dirToPlayer = (player.position - transform.position);
         float dist = dirToPlayer.magnitude;
 
@@ -144,6 +158,7 @@ public class Guardian : MonoBehaviour
     {
         isDead = true;
 
+        // stop movement & physics so he doesn't fall
         if (rb != null)
         {
             rb.velocity = Vector2.zero;
@@ -157,9 +172,11 @@ public class Guardian : MonoBehaviour
             anim.SetTrigger("die");
         }
 
+        // optional: no more collisions
         Collider2D col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
+        // Wait 2.2 seconds (death anim) then spawn shard + destroy Drago
         Invoke(nameof(SpawnShardAndDestroy), 1f);
     }
 
@@ -186,10 +203,12 @@ public class Guardian : MonoBehaviour
         anim.SetBool("isWalking", walking);
     }
 
+    // -------- COLLISION: flip on Player & Wall --------
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
+            // optional contact damage – only when aggro if you want
             if (isAggro)
             {
                 PlayerStats stats = collision.collider.GetComponent<PlayerStats>();
@@ -197,7 +216,9 @@ public class Guardian : MonoBehaviour
                     stats.TakeDamage(contactDamage);
             }
 
+            // when he "reaches Rocky", flip and go back
             FlipDirection();
         }
+       
     }
 }

@@ -34,10 +34,10 @@ public class PlayerBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Drago drago = other.GetComponent<Drago>();
-        if (drago != null)
+        Shadow shadow = other.GetComponent<Shadow>();
+        if (shadow != null)
         {
-            drago.TakeDamage(damage);
+            shadow.TakeDamage(damage);
             Destroy(gameObject);
             return;
         }
@@ -62,7 +62,14 @@ public class PlayerBullet : MonoBehaviour
         {
             Sentinels.TakeDamage(damage);
             Destroy(gameObject);
+            return; 
+    }
+            Guardiannn Guardiann = other.GetComponent<Guardiannn>();
+        if (Guardiann != null)
+        {
+            Guardiann.TakeDamage(damage);
+            Destroy(gameObject);
             return;
     }
-    }
+}
 }

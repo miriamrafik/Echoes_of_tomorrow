@@ -4,28 +4,32 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-   public Transform Target;
-   public float Cameraspeed;
+    public Transform target;
+    public float cameraSpeed = 5f;
 
-   public float minX,maxX;
-   public float minY,maxY;
- // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Camera Bounds")]
+    public float minX, maxX;
+    public float minY, maxY;
 
-    // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        
-    }
-    void FixedUpdate (){
-        if (Target!=null){
-     Vector2 newCamPosition = Vector2.Lerp(transform.position, Target.position ,Time.deltaTime *Cameraspeed);
-     float ClampX =Mathf.Clamp(newCamPosition.x,minX,maxX);
-     float ClampY =Mathf.Clamp(newCamPosition.y,minY,maxY);
-     transform.position=new Vector3(ClampX,ClampY,-10f);
-        }
+        if (target == null) return;
+
+        Vector3 targetPosition = new Vector3(
+            target.position.x,
+            target.position.y,
+            transform.position.z
+        );
+
+        Vector3 smoothPosition = Vector3.Lerp(
+            transform.position,
+            targetPosition,
+            Time.deltaTime * cameraSpeed
+        );
+
+        float clampX = Mathf.Clamp(smoothPosition.x, minX, maxX);
+        float clampY = Mathf.Clamp(smoothPosition.y, minY, maxY);
+
+        transform.position = new Vector3(clampX, clampY, transform.position.z);
     }
 }

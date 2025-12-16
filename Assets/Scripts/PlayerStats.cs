@@ -17,7 +17,7 @@ public class PlayerStats : MonoBehaviour
     public Image healthBar; //healthBar
 
     public  static int health = 3;
-    public static int lives = 3;
+    public static int lives = 25;
     public int maxHealth = 3; //healthBar
 
     private float flickerTime = 0f;
@@ -33,6 +33,7 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+          
         sr = GetComponent<SpriteRenderer>();
            // force full bar
         health = maxHealth; //healthBar
@@ -54,7 +55,7 @@ public class PlayerStats : MonoBehaviour
             }
         }
              ShardsCounter.text = " " + Shards;
-              CrystalCounter.text = " " + Crystal;
+             CrystalCounter.text = " " + Crystal;
     }
 
     void SpriteFlicker(){

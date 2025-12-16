@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ABShooting : MonoBehaviour
@@ -36,7 +38,7 @@ public class ABShooting : MonoBehaviour
     {
         normalTimer -= Time.deltaTime;
 
-        // 🔫 Normal bullet (Tab)
+        // 🔫 Normal bullet (Q)
         if (Input.GetKeyDown(normalKey) && normalTimer <= 0f)
         {
             ShootNormal();

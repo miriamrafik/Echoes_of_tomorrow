@@ -103,7 +103,616 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level 3 Obstacle_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 506
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad985a185801c848b2d6a7ff5282893
+      internalID: -316660865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 505
+        width: 116
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e357e444e1b4049b79b334337c2f86
+      internalID: -1301177038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 494
+        width: 120
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9fd8a9b3b027f4d8c0ce1a09bec7cd
+      internalID: -300843205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_3
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 487
+        width: 111
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698be77a0e251ec46bd47661e40a0d2c
+      internalID: 918422238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_4
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 476
+        width: 114
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6c1837e0a0c7649b32956af5b05bf9
+      internalID: 1023050586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 426
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156ad77173397dd438550cac983a241d
+      internalID: 1325684388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 425
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d3ae05274d488408de839cc9c43a2c
+      internalID: -546209907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 425
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127acda2627179c4ca00a60950f98326
+      internalID: -1913559614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 425
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f16861739af6c4e9d399926a9c568e
+      internalID: -15546714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 381
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2dccee3b0ff1f4195d8c78cb93cdd8
+      internalID: 342823931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 369
+        width: 111
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb84699bd7c8bf4c9769c81572e8bb2
+      internalID: 2014987105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 248
+        width: 247
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb26b60e2abd4b49aa3833fd3b2fc49
+      internalID: -1631548667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_12
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 251
+        width: 111
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231f8a4d76a3489419425d631763fc07
+      internalID: 1707233865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_13
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 375
+        width: 99
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c1996919f68da4ca19c353ae1c5f8c
+      internalID: 1371314449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_14
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 258
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b48583fead96094ca782eb60ad596bd
+      internalID: 801525159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 258
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0960b76c97e3e54eb85e7484b528936
+      internalID: 86610167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_16
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 258
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4826ac7b8811ff4fa6871aaf032d9b6
+      internalID: -1134260332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 126
+        width: 108
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c4aa6aa3177d84d91197c08d8c9e5d
+      internalID: -1498564495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_18
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 127
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856577622b9725a4388989b8f52cc0a4
+      internalID: -1120621294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_19
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 126
+        width: 107
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffec368054e45d149ab6ff0ba60390f3
+      internalID: 289934529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_20
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 127
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bbf31dafebbc442b0bde02a9f4a1a8
+      internalID: -1679779297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_21
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 127
+        width: 84
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561cc5e13bd647f40b364dc2d025c8bb
+      internalID: -1918233185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_22
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 126
+        width: 95
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975b1626236279a45953ba00aabd2a29
+      internalID: 906997772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 24
+        width: 117
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952e39eee09601f498df0dfc76551934
+      internalID: 1848860585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_24
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 23
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de312988ea050af48a233897727b6476
+      internalID: 2019252240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_25
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 25
+        width: 86
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208ee8e350204d14e893430b925e6e00
+      internalID: -718734768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 19
+        width: 116
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf70971f16d90a4e83abe6665b42ca6
+      internalID: -1635361336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_27
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 25
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b9bd19707d10f4ca28b73d39bdd8c0
+      internalID: -1062007106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 Obstacle_28
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 25
+        width: 94
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923f1e0e9977d1f43988d08aa67c8e9c
+      internalID: -2078284503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +723,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Level 3 Obstacle_19: 289934529
+      Level 3 Obstacle_2: -300843205
+      Level 3 Obstacle_20: -1679779297
+      Level 3 Obstacle_4: 1023050586
+      Level 3 Obstacle_10: 2014987105
+      Level 3 Obstacle_23: 1848860585
+      Level 3 Obstacle_8: -15546714
+      Level 3 Obstacle_26: -1635361336
+      Level 3 Obstacle_5: 1325684388
+      Level 3 Obstacle_25: -718734768
+      Level 3 Obstacle_21: -1918233185
+      Level 3 Obstacle_18: -1120621294
+      Level 3 Obstacle_24: 2019252240
+      Level 3 Obstacle_28: -2078284503
+      Level 3 Obstacle_17: -1498564495
+      Level 3 Obstacle_9: 342823931
+      Level 3 Obstacle_14: 801525159
+      Level 3 Obstacle_3: 918422238
+      Level 3 Obstacle_15: 86610167
+      Level 3 Obstacle_22: 906997772
+      Level 3 Obstacle_27: -1062007106
+      Level 3 Obstacle_11: -1631548667
+      Level 3 Obstacle_12: 1707233865
+      Level 3 Obstacle_16: -1134260332
+      Level 3 Obstacle_1: -1301177038
+      Level 3 Obstacle_6: -546209907
+      Level 3 Obstacle_7: -1913559614
+      Level 3 Obstacle_13: 1371314449
+      Level 3 Obstacle_0: -316660865
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

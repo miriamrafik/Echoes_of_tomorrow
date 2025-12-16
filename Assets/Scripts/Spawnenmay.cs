@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Spawnenmay: MonoBehaviour
 {
-    public GameObject dragoPrefab;   // Drago prefab
+    public GameObject enemyPrefab;   // Drago prefab
     public Transform spawnPoint;     // where he appears
     private bool hasSpawned = false;
 
@@ -22,14 +22,14 @@ public class Spawnenmay: MonoBehaviour
             return;
         }
 
-        if (dragoPrefab == null)
+        if (enemyPrefab == null)
         {
             Debug.LogError("[DragoTrigger] dragoPrefab is NOT assigned in Inspector!");
             return;
         }
 
         Vector3 pos = (spawnPoint != null) ? spawnPoint.position : transform.position;
-        GameObject drago = Instantiate(dragoPrefab, pos, Quaternion.identity);
+        GameObject drago = Instantiate(enemyPrefab, pos, Quaternion.identity);
         hasSpawned = true;
 
         Debug.Log("[DragoTrigger] Spawned Drago at: " + pos + " → instance name: " + drago.name);

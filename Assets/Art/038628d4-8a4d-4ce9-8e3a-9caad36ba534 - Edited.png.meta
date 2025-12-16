@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7276bc3cd8cc17541a8ad2e1cc533a36
+guid: d0900fac8df5c294d923ca44b2e4722f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Core Level 5_0
+      name: 038628d4-8a4d-4ce9-8e3a-9caad36ba534 - Edited_0
       rect:
         serializedVersion: 2
-        x: 270
-        y: 376
-        width: 146
-        height: 187
+        x: 85
+        y: 84
+        width: 680
+        height: 1121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,113 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8612aac174b137a46945a6bffddd0c07
-      internalID: 1120439182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Core Level 5_1
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 389
-        width: 164
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79598d58bde825442a9ee3c0f20a9826
-      internalID: -284565947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Core Level 5_2
-      rect:
-        serializedVersion: 2
-        x: 882
-        y: 400
-        width: 161
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3f905954608e7d4aa955e73538b2bab
-      internalID: -233906974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Core Level 5_3
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 128
-        width: 145
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 610f7cd1e76122541a5d361874e260b1
-      internalID: 157365130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Core Level 5_4
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 160
-        width: 163
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59c2a6ec628657f4bb6f585a8b245679
-      internalID: 1840962696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Core Level 5_5
-      rect:
-        serializedVersion: 2
-        x: 882
-        y: 157
-        width: 161
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41407e3ce9c260d498465b3ff214c0d4
-      internalID: 814976816
+      spriteID: 33113283a96385442a51ccad1945f20d
+      internalID: -369515874
       vertices: []
       indices: 
       edges: []
@@ -241,12 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Core Level 5_0: 1120439182
-      Core Level 5_4: 1840962696
-      Core Level 5_1: -284565947
-      Core Level 5_2: -233906974
-      Core Level 5_3: 157365130
-      Core Level 5_5: 814976816
+      038628d4-8a4d-4ce9-8e3a-9caad36ba534 - Edited_0: -369515874
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
